@@ -8,7 +8,8 @@
   },
   "dependencies": {
     "express": "^4.12.4",
-    "lodash": "*"
+    "lodash": "*",
+    "superagent": "2.0.0"
   },
   "engines": {
     "node": "4.4.3"
@@ -22,8 +23,5 @@
     "hyperdev",
     "express"
   ],
-  "license": "MIT",
-  "devDependencies": {
-    "superagent": "2.0.0"
-  }
+  "license": "MIT"
 }
