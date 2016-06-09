@@ -27,7 +27,8 @@ function handleMessageEvent(event) {
 }
 
 function sendMessage(sender, message) {
-
+  console.log('message');
+  console.log(message);
   request.post('https://graph.facebook.com/v2.6/me/messages')
     .query({access_token: fbAccessToken})
     .send({

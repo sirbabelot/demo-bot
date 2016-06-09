@@ -3,7 +3,7 @@
    "text": "Helloo!!"
   },
   "GREETING": {
-    "text": "are you looking for a place to rent?"
+    "text": "are you looking for a place to rent? Or, do you have a question about Domus?"
   },
   "GROUP_MYSELF": {
     "attachment":{
@@ -27,7 +27,7 @@
     }
   },
   "NO_HELP": {
-    "text": "Okay! If you still need  to talk to someone you can checkout our contact section! :D"
+    "text": "Okay! If you still need to talk to someone you can checkout our contact section! :D"
   },
   "SUBLET_ENTIRE": {
      "attachment":{
@@ -106,5 +106,29 @@
         }]
       }
     }
+  },
+  "VIEWING":{
+    "text": "Call our Rental Hotline at 519-572-0278 or 1-855-MY-DOMUS and we can schedule a Virtual Reality tour using our Oculus Goggles at our office located at 295 Weber St. N., Suite 7. "
+  },
+  "SECURITY_DEPOSIT":{
+    "text": "You will need to place a deposit (immediate payment) of last month's rent to secure the room in your name. This is a non-refundable deposit. "
+  },
+  "REFUNDABLE_DEPOSIT":{
+    "text": "The last month's rent deposit is not refundable. See below for key deposit info."
+  },
+  "PET_FRIENDLY":{
+    "text": "No, Domus Student Housing houses and apartments do not accept pets."
+  },
+  "SUBLETTING_APPROVAL":{
+    "text": "Yes. When you find a subletter, it's a good idea to have something in writing confirming your agreement. Complete a sublet contract and send in a copy to living@domushousing.com so that we have it on file."
+  },
+  "UTILITIES":{
+    "text": "Most of the Domus houses & apartments come with the majority of utilities covered by the landlord. Utilities are not included in the rent but as outlined in the lease, if you pay your rent on time, the landlord agrees to pay your utilities at a set price of $50."
+  },
+  "HELP":{
+    "text": "Okay, what do you have questions about, mistair?"
+  },
+  "MORE_HELP":{
+    "text": "Okay, do you have any other questions?"
   }
 }

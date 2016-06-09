@@ -6,67 +6,27 @@
 			"url": "https://graph.facebook.com/v2.6/me/messages",
 			"data": {
 				"recipient": {
-					"id": "10153909778076743"
-				},
-				"message": {
-					"attachment": {
-						"type": "template",
-						"payload": {
-							"template_type": "generic",
-							"elements": [
-								{
-									"title": "12 Bridgeport Rd",
-									"subtitle": "Domus Student Housing",
-									"image_url": "https://www.domushousing.com/primgs/4583",
-									"buttons": [
-										{
-											"type": "web_url",
-											"url": "https://www.domushousing.com/bd216-the-bridgeport-lofts-12-bridgeport-rd-waterloo-for-rent",
-											"title": "Domus Student Housing"
-										},
-										{
-											"type": "postback",
-											"title": "details",
-											"payload": "Payload for first element in a generic bubble"
-										}
-									]
-								},
-								{
-									"title": "253 Lester Street",
-									"subtitle": "KW4rent",
-									"image_url": "http://www.kw4rent.com/wp-content/uploads/wppa/20.jpg?ver=1",
-									"buttons": [
-										{
-											"title": "details",
-											"type": "postback",
-											"url": "http://www.kw4rent.com/waterloo-student-housing/253-lester-street/",
-											"payload": "Payload for second element in a generic bubble"
-										}
-									]
-								}
-							]
-						}
-					}
+					"id": "1079141988832361"
 				}
 			}
 		},
 		"header": {
-			"www-authenticate": "OAuth \"Facebook Platform\" \"invalid_request\" \"(#100) URL provided for payload based button\"",
+			"www-authenticate": "OAuth \"Facebook Platform\" \"invalid_request\" \"(#100) Must send either message or state\"",
 			"access-control-allow-origin": "*",
 			"pragma": "no-cache",
 			"cache-control": "no-store",
 			"facebook-api-version": "v2.6",
 			"expires": "Sat, 01 Jan 2000 00:00:00 GMT",
 			"content-type": "text/javascript; charset=UTF-8",
-			"x-fb-trace-id": "CF9NH6/mcHd",
-			"x-fb-rev": "2382617",
-			"x-fb-debug": "hVBVkU3vgOCQZvZLHo8kOr9Sxx11irhhm0GqBgM5Y+EXJNdhYdgbNY3ZAB+9sVM3oDSx/dgkPKDjs30r2KnZvQ==",
-			"date": "Thu, 09 Jun 2016 05:56:01 GMT",
+			"x-fb-trace-id": "GFP9HOCtezb",
+			"x-fb-rev": "2383414",
+			"x-fb-debug": "RB4Mc4miHWVllfRxm0RtfowxdSgiIZlLPrNKrDD082b3XvjRROZN9n/Mg6VZyoQfMinyYffrdtT+MqXKmjxOVg==",
+			"date": "Thu, 09 Jun 2016 22:12:07 GMT",
 			"connection": "close",
-			"content-length": "131"
+			"content-length": "126"
 		},
 		"status": 400,
-		"text": "{\"error\":{\"message\":\"(#100) URL provided for payload based button\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"CF9NH6\\/mcHd\"}}"
+		"text": "{\"error\":{\"message\":\"(#100) Must send either message or state\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"GFP9HOCtezb\"}}"
 	},
 	"status": 400
 }

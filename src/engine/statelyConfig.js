@@ -23,6 +23,8 @@ module.exports = {
         return ['GROUP_MYSELF', JSON.stringify(['GROUP_MYSELF'])];
       } else if (message.search(regex.no) >= 0) {
         return ['NO_HELP', JSON.stringify(['NO_HELP'])];
+      } else if (message.search(regex.faq) >= 0) {
+        return ['FAQ', JSON.stringify(['HELP'])];
       } else {
         return ['GREETING', JSON.stringify(['I_DONT_UNDERSTAND', 'GREETING']) ];
       }
@@ -114,6 +116,26 @@ module.exports = {
     },
     onInput: function(message) {
       return ['YOU_AGAIN', JSON.stringify(['YOU_AGAIN']) ]
+    }
+  }),
+  "FAQ": new State({
+    onEnter: function(){
+
+    },
+    onInput: function(message){
+      if (message.search(regex.viewing) >= 0) {
+        return ['FAQ', JSON.stringify(['VIEWING','MORE_HELP'])];
+      } else if (message.search(regex.deposit) >= 0) {
+        return ['FAQ', JSON.stringify(['SECURITY_DEPOSIT',, 'MORE_HELP'])];
+      } else if (message.search(regex.pet) >= 0) {
+        return ['FAQ', JSON.stringify(['PET_FRIENDLY',, 'MORE_HELP'])];
+      } else if (message.search(regex.utilities) >= 0) {
+        return ['FAQ', JSON.stringify(['UTILITIES', 'MORE_HELP'])];
+      }else if (message.search(regex.no) >= 0) {
+        return ['NO_HELP', JSON.stringify(['NO_HELP'])];
+      }else{
+        return ['FAQ', JSON.stringify(['I_DONT_UNDERSTAND', 'FAQ']) ];
+      }
     }
   })
 };

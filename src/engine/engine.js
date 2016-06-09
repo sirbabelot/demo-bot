@@ -18,7 +18,6 @@ var bot;
  */
 function getMessagesToSend(responseKeysHash) {
   let responseKeys = JSON.parse(responseKeysHash);
-  console.log(responseKeys);
   return responseKeys.map(responseKey => STATES[responseKey]);
 }
 
@@ -36,6 +35,7 @@ function turn(message) {
     responseKeysHash = bot.onEnter();
   } else {
     responseKeysHash = bot.onInput(message.body);
+    console.log(responseKeysHash);
   }
   return getMessagesToSend(responseKeysHash);
 }
