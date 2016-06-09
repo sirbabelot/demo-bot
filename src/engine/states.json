@@ -1,0 +1,110 @@
+{
+  "HEY_THERE": {
+   "text": "Helloo!!"
+  },
+  "GREETING": {
+    "text": "are you looking for a place to rent?"
+  },
+  "GROUP_MYSELF": {
+    "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"button",
+        "text":"Are you looking with a group of friends or by yourself?",
+        "buttons":[
+          {
+            "type":"postback",
+            "title":"group",
+            "payload":"group"
+          },
+          {
+            "type":"postback",
+            "title": "by myself",
+            "payload":"by myself"
+          }
+        ]
+      }
+    }
+  },
+  "NO_HELP": {
+    "text": "Okay! If you still need  to talk to someone you can checkout our contact section! :D"
+  },
+  "SUBLET_ENTIRE": {
+     "attachment":{
+      "type":"template",
+      "payload":{
+        "template_type":"button",
+        "text":"Do you want a sublet or a full lease?",
+        "buttons":[
+          {
+            "type":"postback",
+            "title":"sublet",
+            "payload":"sublet"
+          },
+          {
+            "type":"postback",
+            "title": "full lease",
+            "payload":"full lease"
+          }
+        ]
+      }
+    }
+  },
+  "NUM_OF_ROOMS": {
+    "text": "How many bedrooms will you need?"
+  },
+  "MAX_PRICE": {
+    "text": "what's your monthly max price per bedroom?"
+  },
+  "ANYTHING_ELSE": {
+    "text": "please tell me anything else I should know about your human preferences"
+  },
+  "LOOK_INTO_IT": {
+    "text": "Okay! I'm going to personally see what I can find for you, sit tight ;)"
+  },
+  "OK_GOOD": {
+    "text": "ok sounds good!"
+  },
+  "YOU_AGAIN": {
+    "text": "oh do you want to give it another go? :P"
+  },
+  "I_DONT_UNDERSTAND": {
+    "text": "uhm..i don't get it lol :P "
+  },
+  "RESULT": {
+     "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "generic",
+        "elements": [{
+          "title": "12 Bridgeport Rd",
+          "subtitle": "Domus Student Housing",
+          "image_url": "https://www.domushousing.com/primgs/4583",
+          "buttons": [{
+            "type": "web_url",
+            "url": "https://www.domushousing.com/bd216-the-bridgeport-lofts-12-bridgeport-rd-waterloo-for-rent",
+            "title": "Domus Student Housing"
+          }]
+        }, {
+          "title": "253 Lester Street",
+          "subtitle": "KW4rent",
+          "image_url": "http://www.kw4rent.com/wp-content/uploads/wppa/20.jpg?ver=1",
+          "buttons": [{
+            "title": "KW4Rent",
+            "type": "web_url",
+            "url": "http://www.kw4rent.com/waterloo-student-housing/253-lester-street/"
+          }]
+        }, {
+          "title": "158 King St N",
+          "subtitle": "Atlas Properties",
+          "image_url": "http://www.atlasproperty.com/wp-content/uploads/Living-Rendering-750x563.jpg",
+          "buttons": [{
+            "title": "Atlas Properties",
+            "type": "web_url",
+            "url": "http://www.atlasproperty.com/property/k2/"
+          }]
+        }]
+      }
+    }
+  }
+}
