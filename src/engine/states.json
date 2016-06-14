@@ -83,25 +83,34 @@
           "buttons": [{
             "type": "web_url",
             "url": "https://www.domushousing.com/bd216-the-bridgeport-lofts-12-bridgeport-rd-waterloo-for-rent",
-            "title": "Domus Student Housing"
+            "title": "Domus"
           }]
         }, {
-          "title": "253 Lester Street",
-          "subtitle": "KW4rent",
-          "image_url": "http://www.kw4rent.com/wp-content/uploads/wppa/20.jpg?ver=1",
+          "title": "141 MacGregor Cres",
+          "subtitle": "Domus",
+          "image_url": "https://www.domushousing.com/primgs/4553",
           "buttons": [{
-            "title": "KW4Rent",
+            "title": "Domus",
             "type": "web_url",
-            "url": "http://www.kw4rent.com/waterloo-student-housing/253-lester-street/"
+            "url": "https://www.domushousing.com/bd5-141-macgregor-cres-waterloo-for-rent"
           }]
         }, {
           "title": "158 King St N",
-          "subtitle": "Atlas Properties",
-          "image_url": "http://www.atlasproperty.com/wp-content/uploads/Living-Rendering-750x563.jpg",
+          "subtitle": "Domus",
+          "image_url": "https://www.domushousing.com/primgs/4539",
           "buttons": [{
-            "title": "Atlas Properties",
+            "title": "Domus",
             "type": "web_url",
-            "url": "http://www.atlasproperty.com/property/k2/"
+            "url": "https://www.domushousing.com/bd722-64-marshall-st-waterloo-for-rent"
+          }]
+        }, {
+          "title": "86 University Ave. W.",
+          "subtitle": "Domus",
+          "image_url": "https://www.domushousing.com/primgs/4240",
+          "buttons": [{
+            "title": "Domus",
+            "type": "web_url",
+            "url": "https://www.domushousing.com/bd1066-86-university-ave-w-waterloo-for-rent"
           }]
         }]
       }
