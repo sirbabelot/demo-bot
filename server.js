@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send('howdie dreams');
+  res.send('howdie dreamin');
 });
 
 //verification
