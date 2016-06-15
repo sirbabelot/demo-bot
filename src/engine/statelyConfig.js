@@ -35,20 +35,20 @@ module.exports = {
       if (message === 'group') {
         return ['NUM_OF_ROOMS', JSON.stringify(['NUM_OF_ROOMS']) ]
       } else if (message === 'by myself') {
-        return ['SUBLET_ENTIRE', JSON.stringify(['SUBLET_ENTIRE']) ]
+        return ['MALE_OR_FEMALE', JSON.stringify(['MALE_OR_FEMALE']) ]
       } else {
-        return ['GROUP_MYSELF', JSON.stringify(['I_DONT_UNDERSTAND', 'GROUP_MYSELF'])];
+        return ['NUM_OF_ROOMS', JSON.stringify(['I_DONT_UNDERSTAND', 'GROUP_MYSELF'])];
       }
     }
   }),
-  "SUBLET_ENTIRE": new State({
+  "MALE_OR_FEMALE": new State({
     onEnter: function() {
     },
     onInput: function(message) {
-      if (message === 'sublet' || message === 'full lease') {
+      if (message === 'male' || message === 'female') {
         return ['MAX_PRICE', JSON.stringify(['MAX_PRICE'])]
       } else {
-        return ['SUBLET_ENTIRE', JSON.stringify(['I_DONT_UNDERSTAND', 'SUBLET_ENTIRE'])];
+        return ['MALE_OR_FEMALE', JSON.stringify(['I_DONT_UNDERSTAND', 'MALE_OR_FEMALE'])];
       }
     }
   }),

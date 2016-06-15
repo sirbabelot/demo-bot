@@ -27,24 +27,24 @@
     }
   },
   "NO_HELP": {
-    "text": "Okay! If you still need  to talk to someone you can checkout our contact section! :D"
+    "text": "Okay! If you still need to talk to someone you can checkout our contact section! :D"
   },
-  "SUBLET_ENTIRE": {
+  "MALE_OR_FEMALE": {
      "attachment":{
       "type":"template",
       "payload":{
         "template_type":"button",
-        "text":"Do you want a sublet or a full lease?",
+        "text":"To make sure Domus Rentals have all the same genders, what is your gender?",
         "buttons":[
           {
             "type":"postback",
-            "title":"sublet",
-            "payload":"sublet"
+            "title":"male",
+            "payload":"male"
           },
           {
             "type":"postback",
-            "title": "full lease",
-            "payload":"full lease"
+            "title": "female",
+            "payload":"female"
           }
         ]
       }
@@ -60,7 +60,7 @@
     "text": "please tell me anything else I should know about your human preferences"
   },
   "LOOK_INTO_IT": {
-    "text": "Okay! I'm going to personally see what I can find for you, sit tight ;)"
+    "text": "Okay! I've personally selected all the listings that match your criteria. Here you are, friend :)"
   },
   "OK_GOOD": {
     "text": "ok sounds good!"
