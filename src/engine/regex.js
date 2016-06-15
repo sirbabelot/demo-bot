@@ -9,5 +9,6 @@ module.exports = {
   no: /(\b)n([o]|\b)([ph]|\b)(e|\b)|never|nah|I don't/ig,
   yes: /(\b)y([eaui .]|\b)([eaphs .]|\b)([ahs .]|\b)|(sure|\bright|fo shizzle|absolutely|totally|totes)|(\bok)/ig,
   house_apt: /house|apartment|apt|entire/ig,
-  individual_room: /\broom|individual/ig
+  individual_room: /\broom|individual/ig,
+  schedule_listing: /listing|viewing|schedule/ig,
 };

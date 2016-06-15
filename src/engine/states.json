@@ -71,6 +71,27 @@
   "I_DONT_UNDERSTAND": {
     "text": "uhm..i don't get it lol :P "
   },
+  "CONTACT": {
+   "attachment": {
+      "type": "template",
+      "payload": {
+        "template_type": "button",
+        "text": "Call and schedule a Virtual Reality tour at our office. We try our best to give our current tenants 24 hours notice for viewings, so be proactive and call ahead of the day you plan to make an appointment!",
+        "buttons": [
+          {
+            "type":"web_url",
+            "title":"Call",
+            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
+          },
+          {
+            "type":"web_url",
+            "title": "Map",
+            "url":"https://www.google.ca/maps?q=295+Weber+St.+N.,+Suite+7&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiD87HYsKjNAhWqxYMKHQXRDIAQ_AUICCgB"
+          }
+        ]
+      }
+    }
+  },
   "RESULT": {
      "attachment": {
       "type": "template",

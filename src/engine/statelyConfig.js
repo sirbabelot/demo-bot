@@ -94,8 +94,16 @@ module.exports = {
       return ['YOU_AGAIN', JSON.stringify(['YOU_AGAIN']) ]
     },
     onInput: function(message) {
+      return ['CONTACT', JSON.stringify(['CONTACT'])]
     }
   }),
+  "CONTACT": new State){
+    onInput: function(message) {
+      if (message.search(regex.schedule_listing) >= 0) {
+        return ['CONTACT', JSON.stringify(['CONTACT'])];
+      }
+    }
+  },
   "YOU_AGAIN": new State({
     onEnter: function() {
     },
