@@ -35,23 +35,23 @@ module.exports = {
       if (message === 'group') {
         return ['NUM_OF_ROOMS', JSON.stringify(['NUM_OF_ROOMS']) ]
       } else if (message === 'by myself') {
-        return ['MALE_OR_FEMALE', JSON.stringify(['MALE_OR_FEMALE']) ]
+        return ['MAX_PRICE', JSON.stringify(['MAX_PRICE']) ]
       } else {
         return ['NUM_OF_ROOMS', JSON.stringify(['I_DONT_UNDERSTAND', 'GROUP_MYSELF'])];
       }
     }
   }),
-  "MALE_OR_FEMALE": new State({
-    onEnter: function() {
-    },
-    onInput: function(message) {
-      if (message === 'male' || message === 'female') {
-        return ['MAX_PRICE', JSON.stringify(['MAX_PRICE'])]
-      } else {
-        return ['MALE_OR_FEMALE', JSON.stringify(['I_DONT_UNDERSTAND', 'MALE_OR_FEMALE'])];
-      }
-    }
-  }),
+  // "MALE_OR_FEMALE": new State({
+  //   onEnter: function() {
+  //   },
+  //   onInput: function(message) {
+  //     if (message === 'male' || message === 'female') {
+  //       return ['MAX_PRICE', JSON.stringify(['MAX_PRICE'])]
+  //     } else {
+  //       return ['MALE_OR_FEMALE', JSON.stringify(['I_DONT_UNDERSTAND', 'MALE_OR_FEMALE'])];
+  //     }
+  //   }
+  // }),
   "NUM_OF_ROOMS": new State({
     onEnter: function() {
     },
