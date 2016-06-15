@@ -97,13 +97,13 @@ module.exports = {
       return ['CONTACT', JSON.stringify(['CONTACT'])]
     }
   }),
-  "CONTACT": new State){
+  "CONTACT": new State({
     onInput: function(message) {
       if (message.search(regex.schedule_listing) >= 0) {
         return ['CONTACT', JSON.stringify(['CONTACT'])];
       }
     }
-  },
+  }),
   "YOU_AGAIN": new State({
     onEnter: function() {
     },
