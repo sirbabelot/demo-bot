@@ -20,7 +20,7 @@ function getMessagesToSend(responseKeysHash) {
   console.log('Get Message to Send');
   console.log(responseKeysHash);
 
-  if(typeof responseKeysHash.hasOwnProperty('reset')){
+  if(!responseKeysHash.hasOwnProperty('reset')){
     let responseKeys = JSON.parse(responseKeysHash);
     return responseKeys.map(responseKey => STATES[responseKey]);
   }else{
