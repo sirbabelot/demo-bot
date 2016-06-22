@@ -34,7 +34,7 @@
       "type":"template",
       "payload":{
         "template_type":"button",
-        "text":"To make sure Domus Rentals have all the same genders, what is your gender?",
+        "text":"To make sure Exclusive Rentals Rentals have all the same genders, what is your gender?",
         "buttons":[
           {
             "type":"postback",
@@ -81,7 +81,7 @@
           {
             "type":"web_url",
             "title":"Call",
-            "url":"https://www.facebook.com/l.php?u=tel%3A5195720278&h=7AQELqbwy"
+            "url":"https://www.facebook.com/l.php?u=tel%3A5199339331&h=7AQELqbwy"
           },
           {
             "type":"web_url",
@@ -98,40 +98,31 @@
       "payload": {
         "template_type": "generic",
         "elements": [{
-          "title": "12 Bridgeport Rd",
-          "subtitle": "Domus Student Housing",
-          "image_url": "https://www.domushousing.com/primgs/4583",
+          "title": "1576 Richmond Rd",
+          "subtitle": "Exclusive Rentals",
+          "image_url": "http://exclusiverental.ca/wp-content/uploads/2015/04/DSC_8459.jpg",
           "buttons": [{
             "type": "web_url",
-            "url": "https://www.domushousing.com/bd216-the-bridgeport-lofts-12-bridgeport-rd-waterloo-for-rent",
-            "title": "Domus"
+            "url": "http://exclusiverental.ca/properties/luxury-student-rental-newly-built-fully-furnished-and-all-inclusive/",
+            "title": ""
           }]
         }, {
-          "title": "141 MacGregor Cres",
-          "subtitle": "Domus",
-          "image_url": "https://www.domushousing.com/primgs/4553",
+          "title": "847 Hellmuth Street",
+          "subtitle": "Exclusive Rentals",
+          "image_url": "http://exclusiverental.ca/wp-content/uploads/2016/02/kitchen-666x467.jpg",
           "buttons": [{
-            "title": "Domus",
+            "title": "Exclusive Rentals",
             "type": "web_url",
-            "url": "https://www.domushousing.com/bd5-141-macgregor-cres-waterloo-for-rent"
+            "url": "http://exclusiverental.ca/properties/stunning-5-bed-house-over-2-levels/"
           }]
         }, {
-          "title": "158 King St N",
-          "subtitle": "Domus",
-          "image_url": "https://www.domushousing.com/primgs/4539",
+          "title": "184 Buttercup",
+          "subtitle": "Exclusive Rentals",
+          "image_url": "http://exclusiverental.ca/wp-content/uploads/2014/11/IMG_00314-640x467.jpg",
           "buttons": [{
-            "title": "Domus",
+            "title": "Exclusive Rentals",
             "type": "web_url",
-            "url": "https://www.domushousing.com/bd722-64-marshall-st-waterloo-for-rent"
-          }]
-        }, {
-          "title": "86 University Ave. W.",
-          "subtitle": "Domus",
-          "image_url": "https://www.domushousing.com/primgs/4240",
-          "buttons": [{
-            "title": "Domus",
-            "type": "web_url",
-            "url": "https://www.domushousing.com/bd1066-86-university-ave-w-waterloo-for-rent"
+            "url": "http://exclusiverental.ca/properties/huge-2bd-apartment-in-family-home/"
           }]
         }]
       }
