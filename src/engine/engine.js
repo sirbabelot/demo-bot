@@ -17,6 +17,7 @@ var bot;
  * @return {array}             An array of response strings
  */
 function getMessagesToSend(responseKeysHash) {
+  console.log(responseKeysHash);
   let responseKeys = JSON.parse(responseKeysHash);
   console.log(responseKeys);
   return responseKeys.map(responseKey => STATES[responseKey]);
@@ -29,6 +30,7 @@ function getMessagesToSend(responseKeysHash) {
  */
 function turn(message) {
   let responseKeysHash;
+  console.log(message);
   if (message.reset === true) {
     bot = Stately.machine(statelyConfig, INITIAL_STATE).bind(function(event, oldState, newState) {
       this[newState].oldState = oldState;
