@@ -18,7 +18,7 @@ var bot;
  */
 function getMessagesToSend(responseKeysHash) {
   console.log('Get Message to Send');
-  console.log(responseKeys);
+  console.log(responseKeysHash);
 
   if(typeof responseKeysHash.hasOwnProperty('reset')){
     let responseKeys = JSON.parse(responseKeysHash);
