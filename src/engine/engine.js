@@ -17,6 +17,11 @@ var bot;
  * @return {array}             An array of response strings
  */
 function getMessagesToSend(responseKeysHash) {
+  // if(typeof responseKeysHash ){
+
+  // }else{
+
+  // }
   console.log(responseKeysHash);
   let responseKeys = JSON.parse(responseKeysHash);
   console.log(responseKeys);

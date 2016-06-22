@@ -7,7 +7,7 @@ const fs = require('fs');
 
 function handlePostback(event) {
   let sender = event.sender.id;
-  console.log(event.postback.payload);
+  // console.log(event.postback.payload);
   let responses = engine.turn( {body: event.postback.payload} );
   responses.forEach((response) => {
     sendMessage(sender, response);
