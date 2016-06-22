@@ -16,16 +16,20 @@ var bot;
  * @param  {string} botResponse the response from the bot state machine
  * @return {array}             An array of response strings
  */
-function getMessagesToSend(responseKeysHash) {
-  console.log('Get Message to Send');
-  console.log(responseKeysHash);
+// function getMessagesToSend(responseKeysHash) {
+//   console.log('Get Message to Send');
+//   console.log(responseKeysHash);
 
-  if(!responseKeysHash.hasOwnProperty('reset')){
-    let responseKeys = JSON.parse(responseKeysHash);
-    return responseKeys.map(responseKey => STATES[responseKey]);
-  }else{
-    return STATES['RESET'];
-  }
+//   if(responseKeysHash != 'r'){
+//     let responseKeys = JSON.parse(responseKeysHash);
+//     return responseKeys.map(responseKey => STATES[responseKey]);
+//   }else{
+//     return [STATES['RESET']];
+//   }
+// }
+function getMessagesToSend(responseKeysHash) {
+  let responseKeys = JSON.parse(responseKeysHash);
+  return responseKeys.map(responseKey => STATES[responseKey]);
 }
 
 /**
