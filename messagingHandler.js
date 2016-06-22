@@ -5,7 +5,7 @@ const fbAccessToken = process.env.FB_ACCESS_TOKEN;
 const fs = require('fs');
 
 
-// Hack (Morgan), but a small one since the chat bot expects a reset on the
+// Hack (Dylan), but a small one since the chat bot expects a reset on the
 // first message
 var isFirstMessage = true;
 
