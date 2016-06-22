@@ -17,15 +17,15 @@ var bot;
  * @return {array}             An array of response strings
  */
 function getMessagesToSend(responseKeysHash) {
-  // if(typeof responseKeysHash ){
-
-  // }else{
-
-  // }
-  console.log(responseKeysHash);
-  let responseKeys = JSON.parse(responseKeysHash);
+  console.log('Get Message to Send');
   console.log(responseKeys);
-  return responseKeys.map(responseKey => STATES[responseKey]);
+
+  if(typeof responseKeysHash.hasOwnProperty('reset')){
+    let responseKeys = JSON.parse(responseKeysHash);
+    return responseKeys.map(responseKey => STATES[responseKey]);
+  }else{
+    return STATES['RESET'];
+  }
 }
 
 /**
