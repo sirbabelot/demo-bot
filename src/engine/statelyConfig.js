@@ -16,7 +16,7 @@ function getResponsesByKeys(responses) {
 module.exports = {
   "GREETING": new State({
     onEnter: function() {
-      return;
+      // return ['GREETING', []]
     },
     onInput: function(message) {
       if (message.search(regex.yes) >= 0) {
