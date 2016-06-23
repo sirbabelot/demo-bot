@@ -6,7 +6,7 @@
 var regex = require('./regex.js');
 var STATES = require('./states.json');
 var State = require('./State.js');
-
+//
 var room_price, room_num;
 
 function getResponsesByKeys(responses) {
