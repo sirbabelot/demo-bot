@@ -8,7 +8,7 @@ const fbAccessToken = process.env.FB_ACCESS_TOKEN;
 const engine = require('./src/engine/engine.js');
 const fs = require('fs');
 const handleMessageEvent = require('./messagingHandler.js');
-const handlePostback = require('./postbackHandler.js');
+const handlePostback = require('./postbackHandler.js')
 
 
 app.use(bodyParser.urlencoded({extended: false}))
