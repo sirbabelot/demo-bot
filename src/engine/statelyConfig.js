@@ -7,7 +7,7 @@ var regex = require('./regex.js');
 var STATES = require('./states.json');
 var State = require('./State.js');
 //
-var room_price, room_num;
+var room_price, room_num, temp;
 
 function getResponsesByKeys(responses) {
   return responses.map(response => STATES[response]);
