@@ -101,8 +101,8 @@
       "payload": {
         "template_type": "generic",
         "elements": [{
-          "title": "1576 Richmond Rd",
-          "subtitle": "Exclusive Rentals",
+          "title": "1576 William Rd",
+          "subtitle": "Some Company",
           "image_url": "http://exclusiverental.ca/wp-content/uploads/2015/04/DSC_8459.jpg",
           "buttons": [{
             "type": "web_url",
@@ -110,20 +110,20 @@
             "title": "Exclusive Rentals"
           }]
         }, {
-          "title": "847 Hellmuth Street",
-          "subtitle": "Exclusive Rentals",
-          "image_url": "http://exclusiverental.ca/wp-content/uploads/2016/02/kitchen-666x467.jpg",
+          "title": "847 Lemmons Street",
+          "subtitle": "Some Company Rentals",
+          "image_url": "http://templates.expresspixel.com/bootstrap_real_estate/css/images/gallery/room_3.jpg",
           "buttons": [{
-            "title": "Exclusive Rentals",
+            "title": "Some Company Rentals",
             "type": "web_url",
-            "url": "http://exclusiverental.ca/properties/stunning-5-bed-house-over-2-levels/"
+            "url": "http://templates.expresspixel.com/bootstrap_real_estate/property.html"
           }]
         }, {
-          "title": "184 Buttercup",
-          "subtitle": "Exclusive Rentals",
+          "title": "200 Buttercup",
+          "subtitle": "Some Company Rentals",
           "image_url": "http://exclusiverental.ca/wp-content/uploads/2014/11/IMG_00314-640x467.jpg",
           "buttons": [{
-            "title": "Exclusive Rentals",
+            "title": "Some Company Rentals",
             "type": "web_url",
             "url": "http://exclusiverental.ca/properties/huge-2bd-apartment-in-family-home/"
           }]
