@@ -45,6 +45,9 @@ function turn(message) {
       this[newState].oldState = oldState;
     });
     responseKeysHash = bot.onEnter();
+    
+    console.log(typeof responseKeysHash);
+    console.log(responseKeysHash);
   } else {
     responseKeysHash = bot.onInput(message.body);
   }
